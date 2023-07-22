@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* top */
+
+.top_page {
+    width: 1170px;
+    margin: auto;
+}
+
+.top_header {
+    padding-top: 40px;
+    margin-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_menu {
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_link,
+.menu_link_home {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu_link {
+    color: #000;
+    font-family: Gilroy-Medium;
+}
+
+.menu_link_home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+}
+
+.top_content {
+    margin-bottom: 162px;
+    display: flex;
+
+}
+
+.top_info {
+    width: 45%;
+}
+
+.top_text {
+    margin-top: 17px;
+}
+
+.top_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_text {
+    width: 85%;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_buttons {
+    width: 58%;
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_button {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background: red;
+}
+
+.top_footer {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* content */
+
+.dsc_page {
+    width: 1170px;
+    margin: auto;
+}
+
+.dsc_i1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 92px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.dsc_i1_info {
+    padding: 40px 31px 25px 29px;
+    background: #FFF;
+}
+
+.dsc_i1_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.dsc_i1_text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+.dsc_i1_link {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.dsc_i2 {
+    margin-bottom: 55px;
+    display: grid;
+    grid-template-columns: 1fr 58.3% 1fr;
+}
+
+.dsc_i2_title {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 19px;
+    grid-column: 2;
+}
+
+.dsc_i2_text {
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    grid-column: 2;
+}
+
+.dsc_i3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.dsc_i3_info {
+    padding-bottom: 50px;
+    background: #FFF;
+}
+
+.dsc_i3_img {
+    max-height: 50%;
+    margin-bottom: 50px;
+}
+
+.dsc_i3_title {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+
+.dsc_i3_text {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 39px;
+}
+
+.dsc_i3_link {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    margin: 0 auto;
+}
